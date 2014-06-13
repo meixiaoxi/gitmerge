@@ -1,0 +1,453 @@
+start...
+SWDownloader 4.8.5.2 for Nezha MIFI
+OBM 4.7.2.13 for Nezha MIFI
+-- May 13 2014 - 09:21:14 --
+APB_SPARE1_REG.VREG_DIG[13:12]
+0x00000003
+Cold power up
+VSYS_OFF_CNT:
+0x00000000
+Power down log:
+0x00000080
+Battery is connectted
+USB is connectted
+wakeup value
+0x00000004
+Wakeup: USB
+USB is connectted
+vbat
+0x00000ec4
+xyl we init led here
+Sea_freq_change pp
+0x00000004
+DDR size: 32MB
+USB connect
+Not allow to boot up
+AutoCS 13MHz
+spi id
+0x00c22539
+SPI Nor is already unprotected
+TR069 Not Supported
+TR069 return
+0x00000005
+CRC check OK with flash address
+0x00020000
+MRD FlashAddress Passed to CP:
+0x00020000
+CRC check OK with flash address
+0x00040000
+uboot
+read time
+0x00000cb9
+LZMA_Decompress start here.........
+0x00000000
+0x00000000
+0x00000062
+0x00006280
+0x00628037
+LZMA_Decompress() : good!
+Retval
+0x00000000
+time
+0x00002253
+read time
+0x00000265
+LZMA_Decompress start here.........
+0x00000000
+0x00000000
+0x00000068
+0x00006891
+0x0068919d
+LZMA_Decompress() : good!
+Retval
+0x00000000
+time
+0x0000050a
+read time
+0x0000002f
+LZMA_Decompress start here.........
+0x00000000
+0x0000003a
+0x00003a01
+0x003a017c
+0x3a017c18
+LZMA_Decompress() : good!
+Retval
+0x00000000
+time
+0x00000048
+Primary/Backup MRD are both OK
+Sea_freq_change pp
+0x00000000
+end...
+0 Board Type: Nezha Marvell MIFI V4
+0 Project Type: Nezha Marvell MIFI V4
+0 PMIC Type: 88PM801/Ustica
+0 Mode Type: Unknown mode
+0 Software version: ZM_PB05_0.0.9_NZ_CP_3.67.001
+1 Compilation date: May 20 2014 and time: 14:52:14
+2 Last time is not silent reset
+3 Silent Reset Magic =aaaaaaaa aaaaaaaa
+3 RTI debug mode 0
+4 PMIC_Ustica_Configure_Marvell_LMIFI_V4R0 Enter.
+5 LD0 Enable1 Reg3:0x2
+5 LD0 Enable2 Reg3:0x0
+7 PMIC_Ustica_Configure_Marvell_LMIFI_V4R0 Exit.
+7 SPI Flash Clock is 13 MHz. 
+7 Fun : SPI_Phase2Init ... Mancode : 0xC2  DevCode : 0x2539
+13 Save to the second Map Table......
+9a Start Sector 0 is invalid FDC
+9a Format FAT System......
+2d1 Write guard sector 36
+
+2d1 FATTable1=2, FATTable2=3, FATsecs=1, MaxClusters=143
+2d2 RootSector=32, SecPerClust=16, UserData=38, RootDirectory=4
+2d3 Read guard sector 36
+315 psm file is not NULL
+
+                        315 psm_block_init, file_num is 0,blk1 is 0
+316 psm_block_init psm_fdi_info[0] is 0
+317 psm_block_init, file_num is 1,blk1 is 1
+317 psm_block_init psm_fdi_info[1] is 1
+318 psm_block_init, file_num is 2,blk1 is 2
+319 psm_block_init psm_fdi_info[2] is 2
+31a psm_block_init, file_num is 3,blk1 is 3
+31a psm_block_init psm_fdi_info[3] is 3
+31d RTC_Phase2_Init: 
+
+31d RTC_Phase2_Init: No Time File
+327 default date 2014/1/1
+
+327 default year/month/day: 2014/1/1
+328 Save_Time_WifiData:Save data
+328 InnerRTCTimeSet: newTime 1388534400
+329 InnerRTCTimeSet: 2014/1/1 0:0:0
+32a Save_Time_WifiData:Save date 1
+32a Save_Time_WifiData:leave
+32b InnerRTCTimeSet: newTime 1388534400
+32c InnerRTCTimeSet: 2014/1/1 0:0:0
+32c ===sd card init===
+32d PowerBank:CHG_INT interrupt happen
+334 ==pin config start==
+
+334 ==card detect pin config==
+334 card detect:0xd0c0
+335 ==pin config end==
+335 SDCARD:SD1_HOST_PMU_AXI_CLOCK=52
+390 ==sdcard set power==
+
+3a3 sdcard set power f
+
+3a3 sdcard set ctrl 0
+3a3 SDCARD:SD_CLOCK_CTRL_offset=c7
+3a3 burst set c5
+3a4 SD_ResetCMD_Task wait
+                         3a4 SD_InsertRemove_Task wait
+                                                      3aa CARD Insert interrupt: 40
+
+3aa SD device haven't init before
+                                 3ab SD_InsertRemove_Task wait
+                                                              3af ===sd card cmd init begin===
+3af : ============== REGISTER DUMP ==============
+3b0 : DMA addr: 0x00000000 | Version:  0x00000002
+3b1 : Blk size: 0x00000000 | Blk cnt:  0x0
+3b1 : Argument: 0x00000000 | Trn mode: 0x00000000
+3b2 : Present:  0x01f70000 | Host ctl: 0x00000f00
+3b3 : Host control2: 0x00000000
+3b4 : Power:    0x0000000f | Blk gap:  0x00000000
+3b5 : Wake-up:  0x00000000 | Clock:    0x000000c7
+3b6 : Timeout:  0x00000000 | Int stat: 0x00000000
+3b6 : Int enab: 0x03ff11ff | Sig enab: 0x03ff11ff
+3b7 : AC12 err: 0x00000000 | Slot int: 0x00000000
+3b8 : Caps:     0x25fc0080 | Max curr: 0x00000000
+3b9 : Command:  0x00000000
+3ba : Fifo_prm: 0x00000005 | Burst set: 0x000000c5
+3ba : ===========================================
+3e9 CMD0 Done!
+
+3e9 Send CMD8
+
+416 isr_sts:0x8000,err_sts:0x1
+
+416 Command timeout error
+417 cmderr_hisr
+               417 cmd_value:0x81a0000, err_status:0x1
+                                                      418 SD_ResetCMD_Task wait
+                                                                               50a Wait for command 8 time out!
+50a Error Invoke CMD8, version1.0 or No SD inserted!
+538 isr_sts:0x8000,err_sts:0x1
+
+538 Command timeout error
+539 cmderr_hisr
+               539 cmd_value:0x371a0000, err_status:0x1
+                                                       53a SD_ResetCMD_Task wait
+                                                                                62c Wait for command 55 time out!
+62c Error Invoke CMD55
+62c sdcard init error!!!
+62d ==sdio init==
+62d SDIO:Base 0xD4281000
+62e SDIO:SD2_HOST_PMU_AXI_CLOCK=52
+638 SDIO:SD_HOST_CTRL_offset=b00
+638 SDIO:SDHCI_TX_CFG=0x40290070
+638 SDIO:SD_CLOCK_CTRL_offset=4047
+63f SDIOERR:CARD Remove/Insert: 40
+642 SDIO:SDHCI_CAPABILITIES1=0x80
+642 SDIO:SDHCI_CAPABILITIES2=0x25fc
+643 SDIO:SDHCI_CAPABILITIES3=0x2f77
+643 SDIO:SDHCI_CAPABILITIES4=0x0
+644 SDIO:CCCR: 0x32
+644 SDIO:SD SPEC: 0x02
+645 SDIO:card caps: 0x03
+645 SDIO:Support multi-block xfers(CMD53)
+646 SDIO:card power: 0x00
+646 SDIO:Supports High-Speed mode
+647 SDIO:SD_CLOCK_CTRL_offset=207
+647 SDIO:VendorID:0x2df, DeviceID:0x9119
+648 SDIO:CCCR IOEX = 0x2
+649 ==sdio init OK==
+649 start auto test!!!
+649 auto_test_task: Enter
+64a End auto test!!!
+64a RDWebFile_Init
+654 fatFIND_Cluster www_data_2_apn.txt, Status=-7
+655 fatFIND_Cluster www_data_3_apn.txt, Status=-7
+655 fatFIND_Cluster www_data_4_apn.txt, Status=-7
+656 fatFIND_Cluster www_data_5_apn.txt, Status=-7
+657 fatFIND_Cluster www_data_6_apn.txt, Status=-7
+658 fatFIND_Cluster www_data_7_apn.txt, Status=-7
+659 fatFIND_Cluster www_data_mtu.txt, Status=-7
+65a fatFIND_Cluster www_data_psm_white.txt, Status=-7
+65b fatFIND_Cluster www_data_pswd.htdigest, Status=-7
+6ae auto_test_task: Waiting SD ready 1
+712 auto_test_task: Waiting SD ready 2
+733 WEB file: entry type:dadadada
+733 RDWebFile_Init flashaddress 16f9bff end
+734 MACADDR:00,00,00,00,00,00
+734 Usb net mac address: 0-c-29-a3-9b-6d
+735 diagPhase2Init start
+736 Usb mode 0, Usb descriptor 100
+736 OnKeyTaskInit: In....
+736 OnKeyTaskInit: Out
+736 PowerBank: chip id c0
+737 PB module init
+737 PB module loop
+737 Set_SWversion_From: Set SWversion from 2(1: RD; 2: Macro 3: XML)
+
+739 web imei: 3520990017614823
+
+73a ReliableDataUnPack Network MEP len is 6, password is 123456
+73a ReliableDataUnPack SubNetwork MEP len is 6, password is 123456
+73c ReliableDataUnPack Service Provider MEP len is 6, password is 123456
+73d ReliableDataUnPack Corporate MEP len is 6, password is 123456
+73e ReliableDataUnPack SimLock MEP len is 6, password is 123456
+741 PowerBank: status change, previous:1  now:3 6, password is 123456
+
+
+741 filename: TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki
+742 fatFIND_Cluster TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki, Status=-7
+74e gDialerCmdMSGQ is created
+
+74e gDusterRespMSGQ is created, duster_customer
+                                               74f gWlanIndMSGQ=70f71a0
+750 gEventHandlerRespMSGQ is created,duster
+                                           750 gCommonATMsgQ is Created
+751 gSendATMsgQ is Created
+751 gDusterInitRespMSGQ is Created
+752 enter CM_init
+752 enter CM_Task
+753 lwip_init_all starting
+753 cpu id is 41159467
+754 netif_set_ipaddr: netif address being changed
+                                                 754 netif: IP address of interface 
+755 netif: netmask of interface 
+756 netif: GW address of interface 
+756 rng 94a3d2d1
+757 rng 7b054ce6
+757 lte local ipv6 is:
+757 FE80:0:0:0:0:0:0:1234
+758 FE80:0:0:0:0:0:0:1234
+758 netif: added interface pc IP addr 
+759 192.168.0.1
+759  netmask 
+75a 255.255.0.0
+75a  gw 
+75a 0.0.0.0
+75a 
+    75a netif_set_ipaddr: netif address being changed
+                                                     75b netif: IP address of interface 
+75c netif: netmask of interface 
+75c netif: GW address of interface 
+75d rng 666f38ca
+75d rng b3849e42
+75e lte local ipv6 is:
+75e FE80:0:0:0:0:0:0:1234
+75f FE80:0:0:0:0:0:0:1234
+75f netif: added interface w1 IP addr 
+760 192.168.0.1
+760  netmask 
+760 255.255.0.0
+761  gw 
+761 0.0.0.0
+761 
+    761 dhcpd init
+761 dhcpd started
+762 fun:netconn_alloc,line:630,semnew:07104f20
+763 fun:tcpip_apimsg,line:589,semwait:07104f20
+763 fun:tcpip_apimsg,line:589,semwait:07104f20
+764 fun:tcpip_apimsg,line:589,semwait:07104f20
+765 fun:netconn_alloc,line:630,semnew:071069c0
+766 fun:tcpip_apimsg,line:589,semwait:071069c0
+767 fun:tcpip_apimsg,line:589,semwait:071069c0
+768 fun:netconn_alloc,line:630,semnew:07109400
+768 fun:tcpip_apimsg,line:589,semwait:07109400
+769 fun:tcpip_apimsg,line:589,semwait:07109400
+76a fun:tcpip_apimsg,line:589,semwait:07109400
+76b netif: IP address of interface 
+76c netif: netmask of interface 
+76c netif: GW address of interface 
+76d rng 7bdd4e83
+76d rng 4c724cab
+76d rng 84fa270d
+76e rng 522bd381
+76e rng 7f0d6aac
+76e netif: added interface td IP addr 
+76f 0.0.0.0
+76f  netmask 
+770 0.0.0.0
+770  gw 
+770 0.0.0.0
+770 
+    770 fun:netconn_alloc,line:630,semnew:0710aea0
+771 fun:tcpip_apimsg,line:589,semwait:0710aea0
+772 fun:tcpip_apimsg,line:589,semwait:0710aea0
+773 lwip_init_all done 2
+776 auto_test_task: Waiting SD ready 3
+77d Read WiFi Firmware
+
+77d type:cafe87ab
+77d name:sd8787_uapsta.bin
+77e WIFI Firmware size 461416
+792 FW download with helper poll status timeout @ 0
+                                                   792 wlan_dnld_fw fail ret=0xffffffff
+                                                                                       793 Failed to D/W FW
+                                                                                                           793 Firmware Init Failed
+                                                                                                                                   794 stop tx heartbeat timer
+794 free tx_hb_timer
+795 free pmlan_cmd_timer
+795 woal_bus_register failed
+                            796 wifi_init_phase1 fail
+796 wifi phase1 fail
+797 enter ReadBootloaderVersion
+797 ReadBootloaderVersion: 13
+798 ReadBootloaderVersion: 2
+798 ReadBootloaderVersion: 7
+799 ReadBootloaderVersion: 4
+799 ReadBootloaderVersion: BootloaderVersion is 4.7.2.19
+79c display LTG/LWG switch option
+79d enter sms_Queue_init
+
+79d RcvSMSMsgQ is created
+79d leave sms_Queue_init
+7d4 Flag header: ffffffff
+
+7d4 Flag upgrade: ffffffff
+7d4 check_obm_upgrade_success_flag, upgrade success flag 0xaaaaaaaa
+7d5 check_obm_upgrade_success_flag, OBM no upgrade 
+7da auto_test_task: Waiting SD ready 4
+7e0 loadDetailLog: ConTimeIndex 0
+7f1 duster_task_init: manual_network_start is 0
+7f1 duster_task_init:disconnectnetwork is 1
+7f3 duster_task_init: version data is AAAAAAAA
+803 IsMultiAccount NEZHA_SMIFI_V2 project
+804 Enter user_paswd_update
+
+804 user_paswd_update user_list is admin%miwifi%1
+804 user_paswd_update find last one user_item 
+805 user_paswd_update tmpbuffer is admin%miwifi%1 
+806 user_paswd_update user_name is admin,paswd is miwifi
+807 user_paswd_update: add user digest admin:Highwmg:c608c9824a563a72aa591a4ad60a2b65
+                                                                                     80a Leave user_paswd_update
+
+83e auto_test_task: Waiting SD ready 5
+872 auto dial when power on
+
+875 duster_task_init:WIFI_SLEEP_TIME is 15
+875 duster_task_init:WIFI_SLEEP_TIME is 15
+876 duster_task_init:SWVersionS is NZ_CP_1.03.006
+876 duster_task_init:SWVersionS is ZM_PB05_0.0.9_NZ_CP_3.67.001
+878 IsACATToSDSupport NEZHA_SMIFI_V2 project
+87c IsWAPISupportSupport, WAPI support 1
+87d duster_task_init ssg_ver is LV01MVL01
+87e duster_task_init ssg_compile_time is May 20 2014 14:53:08
+88e enter post_version_number
+
+88e set version number post_version_number from .h macro
+890 Set software date May 15 2014
+891 leave post_version_number
+
+891 enter lan_post_set
+891 dhcpv6_setting:set dhcp6 server full flag 0
+892 dhcp6_state_full_en 1 0
+892 dhcp6_state_full_en 2 0
+895 Dhcp_cb NULL
+
+896 lan_post_set: dns_name is http://miwifi.com
+896 lan_post_set: dns_name is miwifi.com
+898 leave lan_post_set
+
+898 enter wan_post_set: Action is 1
+898 duster_module_init CommonATcmdExchangeTask Created
+8a2 auto_test_task: Waiting SD ready 6
+8a2 ThisMonthFlag 1
+8a3 ThisMonth year 2014
+
+8a3 ThisMonth month 1
+
+8a4 last_year 2014
+
+8a5 last_month 1
+
+8a5 last_day 1
+
+8a5 current year:2014 month:1 day:1
+8a6 current total days 731, last_total_days 731
+8a6 Phase2Init Finish
+8a7 InitTask start
+8f2 dhcpd g_dhcp_en 1
+
+8f2 dhcpd is registered
+8f2 fun:netconn_alloc,line:630,semnew:0710c0c0
+8f3 fun:tcpip_apimsg,line:589,semwait:0710c0c0
+8f3 dhcpd serverip: c0a81f01
+8f4 fun:tcpip_apimsg,line:589,semwait:0710c0c0
+8f5 dhcpd create socket OK
+906 auto_test_task: SD not ready or not inserted
+979 psNvmRead start
+
+979 L1Init start:0
+
+979 L1Init before semaphore:0
+ac5 L1Init after semaphore:0
+
+ac5 L1Init End:0
+ac5 TTPComStackStart start
+ace TTPComStackStart End
+
+ace psInit_PS_INIT Here
+ace psIsRunningAction end
+c0a Enter initATCmdSvr
+
+c0a Enter initATCmdSvr_Thread
+c0b +CSQ:99,99
+c0b +CESQ:99,99,255,255,255,255
+c0c send getCurrentOper here!
+                             c0c CS register Ind:9, update LED
+c0d CS register Ind: SavedAct is 0
+c0d CS register Ind: SavedAct is 0, gSysMainMode is 0, gSysMode is 0
+c0f checkNWRegStatus: NWReadyFlag is 0, LastNWReadyFlag is 0
+c10 checkNWRegStatus: gSysMode is 0, CregReady is 0, CgregReady is 0, CeregReady is 0
+c11 +CREG:13
+c12 PS register Ind:0 0 0, update LED
+c12 CI_PS_PRIM_NW_REG_IND: lacPresent is 0
+c13 4G PS register Ind:0 0 0, update LED
+c14 CI_PS_PRIM_4G_NW_REG_IND: tacPresent is 0
